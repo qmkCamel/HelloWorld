@@ -7,13 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33C012943939BC31E8E4E6F9 /* libPods-HelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AA01F91FCD27B3ACB8D11E /* libPods-HelloWorld.a */; };
+		8003E81A1E95E149001ACFBF /* CamTouchEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8003E8191E95E149001ACFBF /* CamTouchEventViewController.m */; };
+		801CDE491E14E26C005C74C8 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CDE481E14E26C005C74C8 /* NotificationViewController.m */; };
+		801CDE811E15F3CB005C74C8 /* DesignPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CDE801E15F3CB005C74C8 /* DesignPatternViewController.m */; };
+		802FA0881DEEAE3C00AEAA25 /* KKTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 802FA0871DEEAE3C00AEAA25 /* KKTableItem.m */; };
+		802FA08B1DEEB76A00AEAA25 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 802FA08A1DEEB76A00AEAA25 /* Father.m */; };
+		802FA0911DEEB7B500AEAA25 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 802FA0901DEEB7B500AEAA25 /* Son.m */; };
+		803D9F0F1EA065C30066498C /* CAMQueueUseStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 803D9F0E1EA065C30066498C /* CAMQueueUseStack.m */; };
+		803D9F131EA06B6E0066498C /* CAMQueueUseStackTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 803D9F121EA06B6E0066498C /* CAMQueueUseStackTest.m */; };
+		803D9F161EA084CF0066498C /* CAMStackUseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 803D9F151EA084CF0066498C /* CAMStackUseQueue.m */; };
+		803D9F191EA0A4AC0066498C /* CAMSearchAndSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 803D9F181EA0A4AC0066498C /* CAMSearchAndSort.m */; };
+		803D9F1B1EA0AE500066498C /* CAMSearchAndSortTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 803D9F1A1EA0AE500066498C /* CAMSearchAndSortTest.m */; };
+		803E04B01EA8508E0078DA2F /* CAMTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 803E04AF1EA8508E0078DA2F /* CAMTypeEncoding.m */; };
+		803E04B21EA858A80078DA2F /* CAMCommonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 803E04B11EA858A80078DA2F /* CAMCommonTest.m */; };
+		803E04B61EA8BADF0078DA2F /* CAMBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 803E04B51EA8BADF0078DA2F /* CAMBlock.m */; };
+		8055779C1E233CA1000EF855 /* MKGeneralService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8055779B1E233CA1000EF855 /* MKGeneralService.m */; };
+		806595E41D504FCC00C48032 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 806595E31D504FCC00C48032 /* Cartfile */; };
+		806595E71D50991200C48032 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806595E61D50991200C48032 /* ReactiveCocoaViewController.m */; };
+		8074F2DF1EAF5CEE00312D5E /* libReveal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8074F2DE1EAF5CEE00312D5E /* libReveal.plist */; };
 		807DE2861BEF4A4100AB2884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 807DE2851BEF4A4100AB2884 /* main.m */; };
 		807DE2891BEF4A4100AB2884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 807DE2881BEF4A4100AB2884 /* AppDelegate.m */; };
 		807DE28C1BEF4A4100AB2884 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807DE28B1BEF4A4100AB2884 /* ViewController.m */; };
-		807DE28F1BEF4A4100AB2884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807DE28D1BEF4A4100AB2884 /* Main.storyboard */; };
 		807DE2911BEF4A4100AB2884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807DE2901BEF4A4100AB2884 /* Assets.xcassets */; };
-		807DE2941BEF4A4100AB2884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807DE2921BEF4A4100AB2884 /* LaunchScreen.storyboard */; };
 		807DE29F1BEF4A4100AB2884 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 807DE29E1BEF4A4100AB2884 /* HelloWorldTests.m */; };
+		807DF90C1E836A3B00D7EC33 /* CamRunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807DF90B1E836A3B00D7EC33 /* CamRunLoopViewController.m */; };
+		8087ED031E5D2BBC007275D3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8087ED021E5D2BBC007275D3 /* CoreFoundation.framework */; };
+		8087ED051E5D2D0A007275D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8087ED041E5D2D0A007275D3 /* Foundation.framework */; };
+		808AFBB41D2772C1000D173E /* YYDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 808AFBB31D2772C1000D173E /* YYDispatchQueuePool.m */; };
+		80B1A8791DE92D6000DEE9C8 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B1A8781DE92D6000DEE9C8 /* NSObject+DLIntrospection.m */; };
+		80B6805D1E23BBAD00636511 /* MutableDelegateTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B6805C1E23BBAD00636511 /* MutableDelegateTestViewController.m */; };
+		80B680611E24C12600636511 /* MKMultithreadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B680601E24C12600636511 /* MKMultithreadingViewController.m */; };
+		80B787231E5EF3E300967245 /* RuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B787221E5EF3E300967245 /* RuntimeViewController.m */; };
+		80C32CAB1EBAC05A00FBA285 /* CAMFMDBDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C32CAA1EBAC05A00FBA285 /* CAMFMDBDemoController.m */; };
+		80C35A591EC1B612006B2CB3 /* GYDataCenterTests.db in Resources */ = {isa = PBXBuildFile; fileRef = 80C35A531EC1B612006B2CB3 /* GYDataCenterTests.db */; };
+		80C35A5A1EC1B612006B2CB3 /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C35A551EC1B612006B2CB3 /* Department.m */; };
+		80C35A5B1EC1B612006B2CB3 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C35A571EC1B612006B2CB3 /* Employee.m */; };
+		80C35A5C1EC1B612006B2CB3 /* GYDataCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C35A581EC1B612006B2CB3 /* GYDataCenterTests.m */; };
+		80C35A601EC30645006B2CB3 /* CAMAspectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C35A5F1EC30645006B2CB3 /* CAMAspectsViewController.m */; };
+		80CEFC981EA45D3B00D6437B /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFC971EA45D3B00D6437B /* Fibonacci.m */; };
+		80CEFC9D1EA478CB00D6437B /* FibonacciTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFC9C1EA478CB00D6437B /* FibonacciTest.m */; };
+		80CEFCA01EA4AB5C00D6437B /* CAMConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFC9F1EA4AB5C00D6437B /* CAMConversion.m */; };
+		80CEFCA21EA4ADB600D6437B /* CAMConversionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFCA11EA4ADB600D6437B /* CAMConversionTest.m */; };
+		80CEFCA51EA50B9300D6437B /* CAMLibFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFCA41EA50B9300D6437B /* CAMLibFunction.m */; };
+		80CEFCA81EA5172100D6437B /* CAMListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CEFCA71EA5172100D6437B /* CAMListNode.m */; };
+		80D5A95D1E769C2500754A2E /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5A95C1E769C2500754A2E /* CategoryViewController.m */; };
+		80D5A9601E769C4700754A2E /* CategoryViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5A95F1E769C4700754A2E /* CategoryViewController+Category.m */; };
+		80D5A9631E769C5B00754A2E /* CategoryViewController+NewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5A9621E769C5B00754A2E /* CategoryViewController+NewCategory.m */; };
+		80D5A96A1E77C23700754A2E /* CopyAndMutableCopyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D5A9691E77C23700754A2E /* CopyAndMutableCopyController.m */; };
+		80D6A55B1E0C045800BBB2A1 /* ObjectiveCTipsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D6A55A1E0C045800BBB2A1 /* ObjectiveCTipsController.m */; };
+		FA62EF86B2E91C871248E899 /* libPods-HelloWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A84CD5F405AA1232F01C87 /* libPods-HelloWorldTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +70,101 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24A84CD5F405AA1232F01C87 /* libPods-HelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8B61B10A8431CE0A8D6FBA /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46AA01F91FCD27B3ACB8D11E /* libPods-HelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8003E8181E95E149001ACFBF /* CamTouchEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamTouchEventViewController.h; sourceTree = "<group>"; };
+		8003E8191E95E149001ACFBF /* CamTouchEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamTouchEventViewController.m; sourceTree = "<group>"; };
+		801CDE471E14E26C005C74C8 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		801CDE481E14E26C005C74C8 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		801CDE7F1E15F3CB005C74C8 /* DesignPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternViewController.h; sourceTree = "<group>"; };
+		801CDE801E15F3CB005C74C8 /* DesignPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternViewController.m; sourceTree = "<group>"; };
+		802FA0861DEEAE3C00AEAA25 /* KKTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTableItem.h; sourceTree = "<group>"; };
+		802FA0871DEEAE3C00AEAA25 /* KKTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTableItem.m; sourceTree = "<group>"; };
+		802FA0891DEEB76A00AEAA25 /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		802FA08A1DEEB76A00AEAA25 /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		802FA08F1DEEB7B500AEAA25 /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		802FA0901DEEB7B500AEAA25 /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		802FA0921DEEB81700AEAA25 /* FatherPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FatherPrivate.h; sourceTree = "<group>"; };
+		803D9F0D1EA065C30066498C /* CAMQueueUseStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMQueueUseStack.h; sourceTree = "<group>"; };
+		803D9F0E1EA065C30066498C /* CAMQueueUseStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMQueueUseStack.m; sourceTree = "<group>"; };
+		803D9F121EA06B6E0066498C /* CAMQueueUseStackTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMQueueUseStackTest.m; sourceTree = "<group>"; };
+		803D9F141EA084CF0066498C /* CAMStackUseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMStackUseQueue.h; sourceTree = "<group>"; };
+		803D9F151EA084CF0066498C /* CAMStackUseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMStackUseQueue.m; sourceTree = "<group>"; };
+		803D9F171EA0A4AC0066498C /* CAMSearchAndSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMSearchAndSort.h; sourceTree = "<group>"; };
+		803D9F181EA0A4AC0066498C /* CAMSearchAndSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMSearchAndSort.m; sourceTree = "<group>"; };
+		803D9F1A1EA0AE500066498C /* CAMSearchAndSortTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMSearchAndSortTest.m; sourceTree = "<group>"; };
+		803E04AE1EA8508E0078DA2F /* CAMTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMTypeEncoding.h; sourceTree = "<group>"; };
+		803E04AF1EA8508E0078DA2F /* CAMTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMTypeEncoding.m; sourceTree = "<group>"; };
+		803E04B11EA858A80078DA2F /* CAMCommonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMCommonTest.m; sourceTree = "<group>"; };
+		803E04B41EA8BADF0078DA2F /* CAMBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMBlock.h; sourceTree = "<group>"; };
+		803E04B51EA8BADF0078DA2F /* CAMBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMBlock.m; sourceTree = "<group>"; };
+		8055779A1E233CA1000EF855 /* MKGeneralService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKGeneralService.h; sourceTree = "<group>"; };
+		8055779B1E233CA1000EF855 /* MKGeneralService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKGeneralService.m; sourceTree = "<group>"; };
+		806595E31D504FCC00C48032 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		806595E51D50991200C48032 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
+		806595E61D50991200C48032 /* ReactiveCocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController.m; sourceTree = "<group>"; };
+		8074F2DE1EAF5CEE00312D5E /* libReveal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = libReveal.plist; sourceTree = "<group>"; };
 		807DE2811BEF4A4100AB2884 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		807DE2851BEF4A4100AB2884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		807DE2871BEF4A4100AB2884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		807DE2881BEF4A4100AB2884 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		807DE28A1BEF4A4100AB2884 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		807DE28B1BEF4A4100AB2884 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		807DE28E1BEF4A4100AB2884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		807DE2901BEF4A4100AB2884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		807DE2931BEF4A4100AB2884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		807DE2951BEF4A4100AB2884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		807DE29A1BEF4A4100AB2884 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		807DE29E1BEF4A4100AB2884 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
 		807DE2A01BEF4A4100AB2884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807DF90A1E836A3B00D7EC33 /* CamRunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamRunLoopViewController.h; sourceTree = "<group>"; };
+		807DF90B1E836A3B00D7EC33 /* CamRunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamRunLoopViewController.m; sourceTree = "<group>"; };
+		8087ED021E5D2BBC007275D3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8087ED041E5D2D0A007275D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		808AFBB21D2772C1000D173E /* YYDispatchQueuePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDispatchQueuePool.h; sourceTree = "<group>"; };
+		808AFBB31D2772C1000D173E /* YYDispatchQueuePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDispatchQueuePool.m; sourceTree = "<group>"; };
+		80B1A86A1DE8884100DEE9C8 /* KKConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKConstants.h; sourceTree = "<group>"; };
+		80B1A8721DE899F600DEE9C8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		80B1A8771DE92D6000DEE9C8 /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
+		80B1A8781DE92D6000DEE9C8 /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
+		80B6805B1E23BBAD00636511 /* MutableDelegateTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableDelegateTestViewController.h; sourceTree = "<group>"; };
+		80B6805C1E23BBAD00636511 /* MutableDelegateTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableDelegateTestViewController.m; sourceTree = "<group>"; };
+		80B6805F1E24C12600636511 /* MKMultithreadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMultithreadingViewController.h; sourceTree = "<group>"; };
+		80B680601E24C12600636511 /* MKMultithreadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMultithreadingViewController.m; sourceTree = "<group>"; };
+		80B787211E5EF3E300967245 /* RuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeViewController.h; sourceTree = "<group>"; };
+		80B787221E5EF3E300967245 /* RuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeViewController.m; sourceTree = "<group>"; };
+		80C32CA91EBAC05A00FBA285 /* CAMFMDBDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMFMDBDemoController.h; sourceTree = "<group>"; };
+		80C32CAA1EBAC05A00FBA285 /* CAMFMDBDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMFMDBDemoController.m; sourceTree = "<group>"; };
+		80C35A531EC1B612006B2CB3 /* GYDataCenterTests.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = GYDataCenterTests.db; sourceTree = "<group>"; };
+		80C35A541EC1B612006B2CB3 /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		80C35A551EC1B612006B2CB3 /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		80C35A561EC1B612006B2CB3 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		80C35A571EC1B612006B2CB3 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		80C35A581EC1B612006B2CB3 /* GYDataCenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYDataCenterTests.m; sourceTree = "<group>"; };
+		80C35A5E1EC30645006B2CB3 /* CAMAspectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMAspectsViewController.h; sourceTree = "<group>"; };
+		80C35A5F1EC30645006B2CB3 /* CAMAspectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMAspectsViewController.m; sourceTree = "<group>"; };
+		80CEFC961EA45D3B00D6437B /* Fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
+		80CEFC971EA45D3B00D6437B /* Fibonacci.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fibonacci.m; sourceTree = "<group>"; };
+		80CEFC9C1EA478CB00D6437B /* FibonacciTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibonacciTest.m; sourceTree = "<group>"; };
+		80CEFC9E1EA4AB5C00D6437B /* CAMConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMConversion.h; sourceTree = "<group>"; };
+		80CEFC9F1EA4AB5C00D6437B /* CAMConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMConversion.m; sourceTree = "<group>"; };
+		80CEFCA11EA4ADB600D6437B /* CAMConversionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMConversionTest.m; sourceTree = "<group>"; };
+		80CEFCA31EA50B9300D6437B /* CAMLibFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMLibFunction.h; sourceTree = "<group>"; };
+		80CEFCA41EA50B9300D6437B /* CAMLibFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMLibFunction.m; sourceTree = "<group>"; };
+		80CEFCA61EA5172100D6437B /* CAMListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMListNode.h; sourceTree = "<group>"; };
+		80CEFCA71EA5172100D6437B /* CAMListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMListNode.m; sourceTree = "<group>"; };
+		80D5A95B1E769C2500754A2E /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		80D5A95C1E769C2500754A2E /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		80D5A95E1E769C4700754A2E /* CategoryViewController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CategoryViewController+Category.h"; sourceTree = "<group>"; };
+		80D5A95F1E769C4700754A2E /* CategoryViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CategoryViewController+Category.m"; sourceTree = "<group>"; };
+		80D5A9611E769C5B00754A2E /* CategoryViewController+NewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CategoryViewController+NewCategory.h"; sourceTree = "<group>"; };
+		80D5A9621E769C5B00754A2E /* CategoryViewController+NewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CategoryViewController+NewCategory.m"; sourceTree = "<group>"; };
+		80D5A9681E77C23700754A2E /* CopyAndMutableCopyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyAndMutableCopyController.h; sourceTree = "<group>"; };
+		80D5A9691E77C23700754A2E /* CopyAndMutableCopyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyAndMutableCopyController.m; sourceTree = "<group>"; };
+		80D6A5591E0C045800BBB2A1 /* ObjectiveCTipsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCTipsController.h; sourceTree = "<group>"; };
+		80D6A55A1E0C045800BBB2A1 /* ObjectiveCTipsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTipsController.m; sourceTree = "<group>"; };
+		9D664EF9AF378EC9F177C6AD /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
+		AFC2F8C45567661F261E0D7E /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		EF674FFDF97F72904000AD28 /* Pods-HelloWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +172,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8087ED051E5D2D0A007275D3 /* Foundation.framework in Frameworks */,
+				8087ED031E5D2BBC007275D3 /* CoreFoundation.framework in Frameworks */,
+				33C012943939BC31E8E4E6F9 /* libPods-HelloWorld.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +182,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA62EF86B2E91C871248E899 /* libPods-HelloWorldTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		549D84A148DA76336D4D7E64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFC2F8C45567661F261E0D7E /* Pods-HelloWorld.debug.xcconfig */,
+				9D664EF9AF378EC9F177C6AD /* Pods-HelloWorld.release.xcconfig */,
+				3B8B61B10A8431CE0A8D6FBA /* Pods-HelloWorldTests.debug.xcconfig */,
+				EF674FFDF97F72904000AD28 /* Pods-HelloWorldTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8003E8171E95E0E5001ACFBF /* TouchEvent */ = {
+			isa = PBXGroup;
+			children = (
+				8003E8181E95E149001ACFBF /* CamTouchEventViewController.h */,
+				8003E8191E95E149001ACFBF /* CamTouchEventViewController.m */,
+			);
+			name = TouchEvent;
+			sourceTree = "<group>";
+		};
+		803D9F0C1EA065800066498C /* AlgorithmPractice */ = {
+			isa = PBXGroup;
+			children = (
+				803D9F0D1EA065C30066498C /* CAMQueueUseStack.h */,
+				803D9F0E1EA065C30066498C /* CAMQueueUseStack.m */,
+				803D9F141EA084CF0066498C /* CAMStackUseQueue.h */,
+				803D9F151EA084CF0066498C /* CAMStackUseQueue.m */,
+				803D9F171EA0A4AC0066498C /* CAMSearchAndSort.h */,
+				803D9F181EA0A4AC0066498C /* CAMSearchAndSort.m */,
+				80CEFC961EA45D3B00D6437B /* Fibonacci.h */,
+				80CEFC971EA45D3B00D6437B /* Fibonacci.m */,
+				80CEFC9E1EA4AB5C00D6437B /* CAMConversion.h */,
+				80CEFC9F1EA4AB5C00D6437B /* CAMConversion.m */,
+				80CEFCA31EA50B9300D6437B /* CAMLibFunction.h */,
+				80CEFCA41EA50B9300D6437B /* CAMLibFunction.m */,
+				80CEFCA61EA5172100D6437B /* CAMListNode.h */,
+				80CEFCA71EA5172100D6437B /* CAMListNode.m */,
+			);
+			name = AlgorithmPractice;
+			sourceTree = "<group>";
+		};
+		803E04AD1EA850700078DA2F /* TypeEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				803E04AE1EA8508E0078DA2F /* CAMTypeEncoding.h */,
+				803E04AF1EA8508E0078DA2F /* CAMTypeEncoding.m */,
+			);
+			path = TypeEncoding;
+			sourceTree = "<group>";
+		};
+		803E04B31EA8BAC90078DA2F /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				803E04B41EA8BADF0078DA2F /* CAMBlock.h */,
+				803E04B51EA8BADF0078DA2F /* CAMBlock.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		805577991E233C52000EF855 /* MutableDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8055779A1E233CA1000EF855 /* MKGeneralService.h */,
+				8055779B1E233CA1000EF855 /* MKGeneralService.m */,
+				80B6805B1E23BBAD00636511 /* MutableDelegateTestViewController.h */,
+				80B6805C1E23BBAD00636511 /* MutableDelegateTestViewController.m */,
+			);
+			name = MutableDelegate;
+			sourceTree = "<group>";
+		};
 		807DE2781BEF4A4100AB2884 = {
 			isa = PBXGroup;
 			children = (
+				806595E31D504FCC00C48032 /* Cartfile */,
 				807DE2831BEF4A4100AB2884 /* HelloWorld */,
 				807DE29D1BEF4A4100AB2884 /* HelloWorldTests */,
 				807DE2821BEF4A4100AB2884 /* Products */,
+				549D84A148DA76336D4D7E64 /* Pods */,
+				90BC716DDF90F123C0B495A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,15 +283,40 @@
 		807DE2831BEF4A4100AB2884 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				80C35A5D1EC30621006B2CB3 /* Aspects */,
+				80C32CA81EBAC02C00FBA285 /* FMDBDemo */,
+				803E04B31EA8BAC90078DA2F /* Block */,
+				803E04AD1EA850700078DA2F /* TypeEncoding */,
+				803D9F0C1EA065800066498C /* AlgorithmPractice */,
+				8003E8171E95E0E5001ACFBF /* TouchEvent */,
+				807DF9091E836A1A00D7EC33 /* RunLoop */,
+				80D5A9671E77C21800754A2E /* CopyAndMutableCopy */,
+				80D5A95A1E769BF400754A2E /* Category */,
+				80B787201E5EF20E00967245 /* DispatchQueuePool */,
+				80B7871F1E5EF1DF00967245 /* 消息转发+Runtime */,
+				80B7871E1E5EF1B100967245 /* Tips */,
+				80B7871D1E5EF0C800967245 /* DesignPatter */,
+				80B7871C1E5EF04100967245 /* Notification */,
+				80B6805E1E24B96600636511 /* Multithreading */,
+				805577991E233C52000EF855 /* MutableDelegate */,
+				80B1A8761DE92D5200DEE9C8 /* Utility */,
 				807DE2871BEF4A4100AB2884 /* AppDelegate.h */,
 				807DE2881BEF4A4100AB2884 /* AppDelegate.m */,
 				807DE28A1BEF4A4100AB2884 /* ViewController.h */,
 				807DE28B1BEF4A4100AB2884 /* ViewController.m */,
-				807DE28D1BEF4A4100AB2884 /* Main.storyboard */,
+				802FA0861DEEAE3C00AEAA25 /* KKTableItem.h */,
+				802FA0871DEEAE3C00AEAA25 /* KKTableItem.m */,
+				806595E51D50991200C48032 /* ReactiveCocoaViewController.h */,
+				806595E61D50991200C48032 /* ReactiveCocoaViewController.m */,
 				807DE2901BEF4A4100AB2884 /* Assets.xcassets */,
-				807DE2921BEF4A4100AB2884 /* LaunchScreen.storyboard */,
 				807DE2951BEF4A4100AB2884 /* Info.plist */,
 				807DE2841BEF4A4100AB2884 /* Supporting Files */,
+				80B1A86A1DE8884100DEE9C8 /* KKConstants.h */,
+				802FA0891DEEB76A00AEAA25 /* Father.h */,
+				802FA08A1DEEB76A00AEAA25 /* Father.m */,
+				802FA08F1DEEB7B500AEAA25 /* Son.h */,
+				802FA0901DEEB7B500AEAA25 /* Son.m */,
+				802FA0921DEEB81700AEAA25 /* FatherPrivate.h */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -97,7 +324,9 @@
 		807DE2841BEF4A4100AB2884 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80B1A8721DE899F600DEE9C8 /* PrefixHeader.pch */,
 				807DE2851BEF4A4100AB2884 /* main.m */,
+				8074F2DE1EAF5CEE00312D5E /* libReveal.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -105,10 +334,152 @@
 		807DE29D1BEF4A4100AB2884 /* HelloWorldTests */ = {
 			isa = PBXGroup;
 			children = (
+				80C35A521EC1B5FA006B2CB3 /* GYDataCenterTest */,
 				807DE29E1BEF4A4100AB2884 /* HelloWorldTests.m */,
 				807DE2A01BEF4A4100AB2884 /* Info.plist */,
+				803D9F121EA06B6E0066498C /* CAMQueueUseStackTest.m */,
+				803D9F1A1EA0AE500066498C /* CAMSearchAndSortTest.m */,
+				80CEFC9C1EA478CB00D6437B /* FibonacciTest.m */,
+				80CEFCA11EA4ADB600D6437B /* CAMConversionTest.m */,
+				803E04B11EA858A80078DA2F /* CAMCommonTest.m */,
 			);
 			path = HelloWorldTests;
+			sourceTree = "<group>";
+		};
+		807DF9091E836A1A00D7EC33 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				807DF90A1E836A3B00D7EC33 /* CamRunLoopViewController.h */,
+				807DF90B1E836A3B00D7EC33 /* CamRunLoopViewController.m */,
+			);
+			name = RunLoop;
+			sourceTree = "<group>";
+		};
+		80B1A8761DE92D5200DEE9C8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				80B1A8771DE92D6000DEE9C8 /* NSObject+DLIntrospection.h */,
+				80B1A8781DE92D6000DEE9C8 /* NSObject+DLIntrospection.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		80B6805E1E24B96600636511 /* Multithreading */ = {
+			isa = PBXGroup;
+			children = (
+				80B6805F1E24C12600636511 /* MKMultithreadingViewController.h */,
+				80B680601E24C12600636511 /* MKMultithreadingViewController.m */,
+			);
+			name = Multithreading;
+			sourceTree = "<group>";
+		};
+		80B7871C1E5EF04100967245 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				801CDE471E14E26C005C74C8 /* NotificationViewController.h */,
+				801CDE481E14E26C005C74C8 /* NotificationViewController.m */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		80B7871D1E5EF0C800967245 /* DesignPatter */ = {
+			isa = PBXGroup;
+			children = (
+				801CDE7F1E15F3CB005C74C8 /* DesignPatternViewController.h */,
+				801CDE801E15F3CB005C74C8 /* DesignPatternViewController.m */,
+			);
+			name = DesignPatter;
+			sourceTree = "<group>";
+		};
+		80B7871E1E5EF1B100967245 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				80D6A5591E0C045800BBB2A1 /* ObjectiveCTipsController.h */,
+				80D6A55A1E0C045800BBB2A1 /* ObjectiveCTipsController.m */,
+			);
+			name = Tips;
+			sourceTree = "<group>";
+		};
+		80B7871F1E5EF1DF00967245 /* 消息转发+Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				80B787211E5EF3E300967245 /* RuntimeViewController.h */,
+				80B787221E5EF3E300967245 /* RuntimeViewController.m */,
+			);
+			name = "消息转发+Runtime";
+			sourceTree = "<group>";
+		};
+		80B787201E5EF20E00967245 /* DispatchQueuePool */ = {
+			isa = PBXGroup;
+			children = (
+				808AFBB21D2772C1000D173E /* YYDispatchQueuePool.h */,
+				808AFBB31D2772C1000D173E /* YYDispatchQueuePool.m */,
+			);
+			name = DispatchQueuePool;
+			sourceTree = "<group>";
+		};
+		80C32CA81EBAC02C00FBA285 /* FMDBDemo */ = {
+			isa = PBXGroup;
+			children = (
+				80C32CA91EBAC05A00FBA285 /* CAMFMDBDemoController.h */,
+				80C32CAA1EBAC05A00FBA285 /* CAMFMDBDemoController.m */,
+			);
+			name = FMDBDemo;
+			sourceTree = "<group>";
+		};
+		80C35A521EC1B5FA006B2CB3 /* GYDataCenterTest */ = {
+			isa = PBXGroup;
+			children = (
+				80C35A531EC1B612006B2CB3 /* GYDataCenterTests.db */,
+				80C35A541EC1B612006B2CB3 /* Department.h */,
+				80C35A551EC1B612006B2CB3 /* Department.m */,
+				80C35A561EC1B612006B2CB3 /* Employee.h */,
+				80C35A571EC1B612006B2CB3 /* Employee.m */,
+				80C35A581EC1B612006B2CB3 /* GYDataCenterTests.m */,
+			);
+			name = GYDataCenterTest;
+			sourceTree = "<group>";
+		};
+		80C35A5D1EC30621006B2CB3 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				80C35A5E1EC30645006B2CB3 /* CAMAspectsViewController.h */,
+				80C35A5F1EC30645006B2CB3 /* CAMAspectsViewController.m */,
+			);
+			name = Aspects;
+			sourceTree = "<group>";
+		};
+		80D5A95A1E769BF400754A2E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				80D5A95B1E769C2500754A2E /* CategoryViewController.h */,
+				80D5A95C1E769C2500754A2E /* CategoryViewController.m */,
+				80D5A95E1E769C4700754A2E /* CategoryViewController+Category.h */,
+				80D5A95F1E769C4700754A2E /* CategoryViewController+Category.m */,
+				80D5A9611E769C5B00754A2E /* CategoryViewController+NewCategory.h */,
+				80D5A9621E769C5B00754A2E /* CategoryViewController+NewCategory.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		80D5A9671E77C21800754A2E /* CopyAndMutableCopy */ = {
+			isa = PBXGroup;
+			children = (
+				80D5A9681E77C23700754A2E /* CopyAndMutableCopyController.h */,
+				80D5A9691E77C23700754A2E /* CopyAndMutableCopyController.m */,
+			);
+			name = CopyAndMutableCopy;
+			sourceTree = "<group>";
+		};
+		90BC716DDF90F123C0B495A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8087ED041E5D2D0A007275D3 /* Foundation.framework */,
+				8087ED021E5D2BBC007275D3 /* CoreFoundation.framework */,
+				46AA01F91FCD27B3ACB8D11E /* libPods-HelloWorld.a */,
+				24A84CD5F405AA1232F01C87 /* libPods-HelloWorldTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,9 +489,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 807DE2A31BEF4A4100AB2884 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
 			buildPhases = (
+				26C25BB5FA9B8869CFFBD632 /* [CP] Check Pods Manifest.lock */,
 				807DE27D1BEF4A4100AB2884 /* Sources */,
 				807DE27E1BEF4A4100AB2884 /* Frameworks */,
 				807DE27F1BEF4A4100AB2884 /* Resources */,
+				2A5EE61BCABD76BE999BC0A4 /* [CP] Embed Pods Frameworks */,
+				C488FC1CAA419EC639877229 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +509,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 807DE2A61BEF4A4100AB2884 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
 			buildPhases = (
+				9C7B73A1423E515323BCDFBE /* [CP] Check Pods Manifest.lock */,
 				807DE2961BEF4A4100AB2884 /* Sources */,
 				807DE2971BEF4A4100AB2884 /* Frameworks */,
 				807DE2981BEF4A4100AB2884 /* Resources */,
+				08BBF8B78462A1E9FCFA48A0 /* [CP] Embed Pods Frameworks */,
+				6F3060CE6EA71730554B3782 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +537,7 @@
 				TargetAttributes = {
 					807DE2801BEF4A4100AB2884 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Q8SYA3X86B;
 					};
 					807DE2991BEF4A4100AB2884 = {
 						CreatedOnToolsVersion = 7.1;
@@ -191,9 +569,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				807DE2941BEF4A4100AB2884 /* LaunchScreen.storyboard in Resources */,
+				806595E41D504FCC00C48032 /* Cartfile in Resources */,
 				807DE2911BEF4A4100AB2884 /* Assets.xcassets in Resources */,
-				807DE28F1BEF4A4100AB2884 /* Main.storyboard in Resources */,
+				8074F2DF1EAF5CEE00312D5E /* libReveal.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,19 +579,143 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C35A591EC1B612006B2CB3 /* GYDataCenterTests.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08BBF8B78462A1E9FCFA48A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26C25BB5FA9B8869CFFBD632 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A5EE61BCABD76BE999BC0A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F3060CE6EA71730554B3782 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C7B73A1423E515323BCDFBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C488FC1CAA419EC639877229 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		807DE27D1BEF4A4100AB2884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D5A9631E769C5B00754A2E /* CategoryViewController+NewCategory.m in Sources */,
+				80D5A9601E769C4700754A2E /* CategoryViewController+Category.m in Sources */,
+				80CEFC981EA45D3B00D6437B /* Fibonacci.m in Sources */,
+				80C35A601EC30645006B2CB3 /* CAMAspectsViewController.m in Sources */,
+				80D5A95D1E769C2500754A2E /* CategoryViewController.m in Sources */,
+				802FA0911DEEB7B500AEAA25 /* Son.m in Sources */,
+				80C32CAB1EBAC05A00FBA285 /* CAMFMDBDemoController.m in Sources */,
+				80B787231E5EF3E300967245 /* RuntimeViewController.m in Sources */,
+				80CEFCA81EA5172100D6437B /* CAMListNode.m in Sources */,
+				807DF90C1E836A3B00D7EC33 /* CamRunLoopViewController.m in Sources */,
 				807DE28C1BEF4A4100AB2884 /* ViewController.m in Sources */,
+				80CEFCA01EA4AB5C00D6437B /* CAMConversion.m in Sources */,
+				8003E81A1E95E149001ACFBF /* CamTouchEventViewController.m in Sources */,
+				80B6805D1E23BBAD00636511 /* MutableDelegateTestViewController.m in Sources */,
+				80B1A8791DE92D6000DEE9C8 /* NSObject+DLIntrospection.m in Sources */,
+				803D9F0F1EA065C30066498C /* CAMQueueUseStack.m in Sources */,
+				808AFBB41D2772C1000D173E /* YYDispatchQueuePool.m in Sources */,
+				802FA0881DEEAE3C00AEAA25 /* KKTableItem.m in Sources */,
+				801CDE811E15F3CB005C74C8 /* DesignPatternViewController.m in Sources */,
+				801CDE491E14E26C005C74C8 /* NotificationViewController.m in Sources */,
 				807DE2891BEF4A4100AB2884 /* AppDelegate.m in Sources */,
+				80D5A96A1E77C23700754A2E /* CopyAndMutableCopyController.m in Sources */,
+				803E04B01EA8508E0078DA2F /* CAMTypeEncoding.m in Sources */,
+				8055779C1E233CA1000EF855 /* MKGeneralService.m in Sources */,
+				80D6A55B1E0C045800BBB2A1 /* ObjectiveCTipsController.m in Sources */,
+				80CEFCA51EA50B9300D6437B /* CAMLibFunction.m in Sources */,
 				807DE2861BEF4A4100AB2884 /* main.m in Sources */,
+				806595E71D50991200C48032 /* ReactiveCocoaViewController.m in Sources */,
+				803E04B61EA8BADF0078DA2F /* CAMBlock.m in Sources */,
+				802FA08B1DEEB76A00AEAA25 /* Father.m in Sources */,
+				803D9F161EA084CF0066498C /* CAMStackUseQueue.m in Sources */,
+				803D9F191EA0A4AC0066498C /* CAMSearchAndSort.m in Sources */,
+				80B680611E24C12600636511 /* MKMultithreadingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +723,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CEFC9D1EA478CB00D6437B /* FibonacciTest.m in Sources */,
+				803D9F131EA06B6E0066498C /* CAMQueueUseStackTest.m in Sources */,
+				80C35A5C1EC1B612006B2CB3 /* GYDataCenterTests.m in Sources */,
+				803E04B21EA858A80078DA2F /* CAMCommonTest.m in Sources */,
+				80CEFCA21EA4ADB600D6437B /* CAMConversionTest.m in Sources */,
+				803D9F1B1EA0AE500066498C /* CAMSearchAndSortTest.m in Sources */,
+				80C35A5B1EC1B612006B2CB3 /* Employee.m in Sources */,
 				807DE29F1BEF4A4100AB2884 /* HelloWorldTests.m in Sources */,
+				80C35A5A1EC1B612006B2CB3 /* Department.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +744,6 @@
 			targetProxy = 807DE29B1BEF4A4100AB2884 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		807DE28D1BEF4A4100AB2884 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				807DE28E1BEF4A4100AB2884 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		807DE2921BEF4A4100AB2884 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				807DE2931BEF4A4100AB2884 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		807DE2A11BEF4A4100AB2884 /* Debug */ = {
@@ -339,28 +830,39 @@
 		};
 		807DE2A41BEF4A4100AB2884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC2F8C45567661F261E0D7E /* Pods-HelloWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8SYA3X86B;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloWorld/PrefixHeader.pch;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunxiao.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunxiao.pusher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		807DE2A51BEF4A4100AB2884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D664EF9AF378EC9F177C6AD /* Pods-HelloWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8SYA3X86B;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloWorld/PrefixHeader.pch;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunxiao.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunxiao.pusher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		807DE2A71BEF4A4100AB2884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8B61B10A8431CE0A8D6FBA /* Pods-HelloWorldTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HelloWorldTests/Info.plist;
@@ -373,6 +875,7 @@
 		};
 		807DE2A81BEF4A4100AB2884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF674FFDF97F72904000AD28 /* Pods-HelloWorldTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HelloWorldTests/Info.plist;
@@ -402,6 +905,7 @@
 				807DE2A51BEF4A4100AB2884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		807DE2A61BEF4A4100AB2884 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +914,7 @@
 				807DE2A81BEF4A4100AB2884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
