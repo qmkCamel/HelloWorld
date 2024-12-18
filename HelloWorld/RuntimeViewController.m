@@ -97,7 +97,7 @@ void run (id self,SEL _cmd) {
 //    Car *car = [Car new];
 //    [car performSelector:@selector(fly)];
     
-    objc_msgSend(self,@selector(testObjc_msgSend));
+//    objc_msgSend(self,@selector(testObjc_msgSend));
     
     NSObject *object = [NSObject new];
     //在ARC模式下，通过__bridge 转换id类型为（void *）类型

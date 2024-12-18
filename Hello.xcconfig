@@ -1,0 +1,11 @@
+//
+//  Hello.xcconfig
+//  HelloWorld
+//
+//  Created by edge on 2024/12/18.
+//  Copyright © 2024 Camel. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+ConfigInXCConfig=true
